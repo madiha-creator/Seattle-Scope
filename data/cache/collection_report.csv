@@ -1,0 +1,40 @@
+city,continent,status
+Islamabad,Asia,SKIPPED
+Delhi,Asia,SKIPPED
+Beijing,Asia,SKIPPED
+Tokyo,Asia,SKIPPED
+Bangkok,Asia,SKIPPED
+Riyadh,Asia,SKIPPED
+Dhaka,Asia,SKIPPED
+Jakarta,Asia,SKIPPED
+Cairo,Africa,SKIPPED
+Lagos,Africa,SKIPPED
+Nairobi,Africa,SKIPPED
+Cape_Town,Africa,SKIPPED
+Addis_Ababa,Africa,SKIPPED
+Accra,Africa,SKIPPED
+Casablanca,Africa,SKIPPED
+London,Europe,SKIPPED
+Paris,Europe,SKIPPED
+Berlin,Europe,SKIPPED
+Rome,Europe,SKIPPED
+Madrid,Europe,SKIPPED
+Moscow,Europe,SKIPPED
+Stockholm,Europe,SKIPPED
+New_York,North America,SKIPPED
+Los_Angeles,North America,SKIPPED
+Mexico_City,North America,SKIPPED
+Toronto,North America,SKIPPED
+Miami,North America,SKIPPED
+Chicago,North America,SKIPPED
+Vancouver,North America,SKIPPED
+Sao_Paulo,South America,SKIPPED
+Buenos_Aires,South America,SKIPPED
+Lima,South America,SKIPPED
+Bogota,South America,SKIPPED
+Santiago,South America,SKIPPED
+Quito,South America,SKIPPED
+Manaus,South America,SKIPPED
+Sydney,Oceania,SKIPPED
+Melbourne,Oceania,SKIPPED
+Auckland,Oceania,SKIPPED

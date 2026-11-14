@@ -1,0 +1,40 @@
+city,expected_months,actual_records,unique_months,invalid_dates_removed,duplicate_records_removed,missing_months,unexpected_months,duplicate_months,valid_precipitation,missing_precipitation,valid_soil_moisture,missing_soil_moisture,invalid_precipitation,invalid_soil_moisture,monthly_status,cleaned_file,continent,processing_status
+Islamabad,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/islamabad_cleaned.csv,Asia,SUCCESS
+Delhi,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/delhi_cleaned.csv,Asia,SUCCESS
+Beijing,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/beijing_cleaned.csv,Asia,SUCCESS
+Tokyo,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/tokyo_cleaned.csv,Asia,SUCCESS
+Bangkok,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/bangkok_cleaned.csv,Asia,SUCCESS
+Riyadh,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/riyadh_cleaned.csv,Asia,SUCCESS
+Dhaka,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/dhaka_cleaned.csv,Asia,SUCCESS
+Jakarta,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/jakarta_cleaned.csv,Asia,SUCCESS
+Cairo,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/cairo_cleaned.csv,Africa,SUCCESS
+Lagos,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/lagos_cleaned.csv,Africa,SUCCESS
+Nairobi,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/nairobi_cleaned.csv,Africa,SUCCESS
+Cape_Town,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/cape_town_cleaned.csv,Africa,SUCCESS
+Addis_Ababa,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/addis_ababa_cleaned.csv,Africa,SUCCESS
+Accra,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/accra_cleaned.csv,Africa,SUCCESS
+Casablanca,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/casablanca_cleaned.csv,Africa,SUCCESS
+London,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/london_cleaned.csv,Europe,SUCCESS
+Paris,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/paris_cleaned.csv,Europe,SUCCESS
+Berlin,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/berlin_cleaned.csv,Europe,SUCCESS
+Rome,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/rome_cleaned.csv,Europe,SUCCESS
+Madrid,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/madrid_cleaned.csv,Europe,SUCCESS
+Moscow,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/moscow_cleaned.csv,Europe,SUCCESS
+Stockholm,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/stockholm_cleaned.csv,Europe,SUCCESS
+New_York,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/new_york_cleaned.csv,North America,SUCCESS
+Los_Angeles,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/los_angeles_cleaned.csv,North America,SUCCESS
+Mexico_City,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/mexico_city_cleaned.csv,North America,SUCCESS
+Toronto,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/toronto_cleaned.csv,North America,SUCCESS
+Miami,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/miami_cleaned.csv,North America,SUCCESS
+Chicago,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/chicago_cleaned.csv,North America,SUCCESS
+Vancouver,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/vancouver_cleaned.csv,North America,SUCCESS
+Sao_Paulo,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/sao_paulo_cleaned.csv,South America,SUCCESS
+Buenos_Aires,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/buenos_aires_cleaned.csv,South America,SUCCESS
+Lima,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/lima_cleaned.csv,South America,SUCCESS
+Bogota,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/bogota_cleaned.csv,South America,SUCCESS
+Santiago,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/santiago_cleaned.csv,South America,SUCCESS
+Quito,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/quito_cleaned.csv,South America,SUCCESS
+Manaus,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/manaus_cleaned.csv,South America,SUCCESS
+Sydney,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/sydney_cleaned.csv,Oceania,SUCCESS
+Melbourne,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/melbourne_cleaned.csv,Oceania,SUCCESS
+Auckland,540,540,540,0,0,0,0,0,540,0,540,0,0,0,PASS,data/processed/auckland_cleaned.csv,Oceania,SUCCESS
