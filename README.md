@@ -119,15 +119,6 @@ available for local development.
 
 Seven read-only endpoints: `meta`, `status`, `cities`, `trend`, `compare`, `opposites`, `clusters`. They are defined in `main.py`.
 
-## Project structure
-
-```text
-main.py            Backend API
-config.py          Settings
-requirements.txt   Python dependencies
-vercel.json        Vercel deployment settings
-banner.svg         README banner (animated globe)
-```
 
 The frontend files and the NASA data cache are in the other folders of this repository.
 
@@ -140,7 +131,7 @@ The frontend files and the NASA data cache are in the other folders of this repo
 
 ## Team
 
-
+· MADEHA SHAH
 
 · AHMED SHAH
 
