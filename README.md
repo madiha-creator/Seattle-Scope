@@ -1,4 +1,4 @@
-# Seattle-Scope
+# SEATTLE-SCOPE
 
 <h1 align="center">Seattle-Scope</h1> <p align="center"> 
 <img src="banner.gif" alt="Seattle-Scope: Earth Trend Detective. Where water goes, the Earth follows." width="100%"> </p>
