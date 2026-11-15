@@ -1,28 +1,6 @@
 # Seattle-Scope
-<!-- AI disclosure: this README was drafted with Claude (Anthropic) and reviewed by the team. -->
 
-<h1 align="center">Seattle-Scope</h1>
-
-<p align="center">
-  <img src="banner.svg" alt="Seattle-Scope: Earth Trend Detective. Where water goes, the Earth follows." width="100%">
-</p>
-
-<p align="center">
-  <a href="https://seattle-scope.vercel.app"><b>Live app</b></a> &nbsp;·&nbsp;
-  <a href="[DEMO_VIDEO_LINK]"><b>30-second demo</b></a> &nbsp;·&nbsp;
-  <a href="#how-it-works"><b>How it works</b></a> &nbsp;·&nbsp;
-  <a href="#run-it-locally"><b>Run locally</b></a> &nbsp;·&nbsp;
-  <a href="AI_USE.md"><b>Use of AI</b></a>
-</p>
-
-<p align="center">
-  <img alt="NASA Space Apps 2026" src="https://img.shields.io/badge/NASA%20Space%20Apps-2026-E3A008?style=for-the-badge">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Data" src="https://img.shields.io/badge/Data-NASA%20POWER%20%7C%20MERRA--2-2E7D32?style=for-the-badge">
-  <img alt="Deployed on Vercel" src="https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-  <img alt="AI use disclosed" src="https://img.shields.io/badge/AI-assisted%2C%20disclosed-6A1B9A?style=for-the-badge">
-</p>
-
+<h1 align="center">Seattle-Scope</h1> <p align="center"> <img src="banner.gif" alt="Seattle-Scope: Earth Trend Detective. Where water goes, the Earth follows." width="100%"> </p> <p align="center"> <a href="https://seattle-scope.vercel.app"><b>Live app</b></a> &nbsp;·&nbsp; <a href="[DEMO_VIDEO_LINK]"><b>30-second demo</b></a> &nbsp;·&nbsp; <a href="#how-it-works"><b>How it works</b></a> &nbsp;·&nbsp; <a href="#run-it-locally"><b>Run locally</b></a> &nbsp;·&nbsp; <a href="AI_USE.md"><b>Use of AI</b></a> </p> <p align="center"> <img alt="NASA Space Apps 2026" src="https://img.shields.io/badge/NASA%20Space%20Apps-2026-E3A008?style=for-the-badge"> <img alt="Python" src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img alt="Data" src="https://img.shields.io/badge/Data-NASA%20POWER%20%7C%20MERRA--2-2E7D32?style=for-the-badge"> <img alt="Deployed on Vercel" src="https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"> <img alt="AI use disclosed" src="https://img.shields.io/badge/AI-assisted%2C%20disclosed-6A1B9A?style=for-the-badge"> </p>
 ---
 
 ## The question
@@ -110,10 +88,8 @@ cd Seattle-Scope
 python -m venv venv
 venv\Scripts\activate            # Mac/Linux: source venv/bin/activate
 pip install -r requirements.txt
-python main.py
 ```
 
-Open the address printed in the terminal (usually <http://localhost:5000> or <http://localhost:8000>). No NASA call is needed, because the data cache is in the repo.
 
 ## API
 
@@ -127,7 +103,6 @@ config.py          Settings
 requirements.txt   Python dependencies
 vercel.json        Vercel deployment settings
 banner.svg         README banner (animated globe)
-AI_USE.md          Disclosure of AI use
 ```
 
 The frontend files and the NASA data cache are in the other folders of this repository.
@@ -155,9 +130,6 @@ Habib Ur Rehman · Madeha Shah · [other members and roles]
 - Mann, H. B. (1945) and Kendall, M. G. (1975): trend test. Sen, P. K. (1968): slope estimator.
 - Open-source libraries: see `requirements.txt`
 
-## License
-
-[Choose a license, for example MIT]
 
 ---
 
