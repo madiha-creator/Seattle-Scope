@@ -9,7 +9,13 @@
     oppositeTrends: 'opposite-trends',
     clusters: 'clusters'
   });
-  const apiBase = new URL(window.EARTH_TREND_API_BASE || '/api/', window.location.href);
+  const isLiveServer = ['localhost', '127.0.0.1'].includes(window.location.hostname)
+    && window.location.port === '5500';
+  const apiBase = new URL(
+    window.EARTH_TREND_API_BASE
+      || (isLiveServer ? 'http://127.0.0.1:8000/api/' : '/api/'),
+    window.location.href
+  );
   const dataBase = new URL(
     withTrailingSlash(window.EARTH_TREND_DATA_ROOT || '../data/'),
     window.location.href
@@ -327,9 +333,8 @@
       const city = lookup.get(cityKey(row.city || row.name));
       const year = numeric(row.year || String(row.date || '').slice(0, 4));
       const variable = variableKey(row.variable);
-      const hasMonthlySeries = Boolean(row.date && variable);
-      const lower = hasMonthlySeries ? null : numeric(row.lower_bound ?? row.lower);
-      const upper = hasMonthlySeries ? null : numeric(row.upper_bound ?? row.upper);
+      const lower = numeric(row.lower_bound ?? row.lower);
+      const upper = numeric(row.upper_bound ?? row.upper);
       if (variable) {
         add(city, variable, year, numeric(row.predicted ?? row.value), lower, upper);
         return;
