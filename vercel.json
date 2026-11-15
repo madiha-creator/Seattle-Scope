@@ -1,0 +1,5 @@
+{
+  "framework": null,
+  "buildCommand": "mkdir -p dist/data && cp -R static/. dist/ && cp -R data/cache dist/data/ && cp -R outputs dist/",
+  "outputDirectory": "dist"
+}
