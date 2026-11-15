@@ -120,10 +120,15 @@ The frontend files and the NASA data cache are in the other folders of this repo
 ## Team
 
 · MADEHA SHAH 
+
 · AHMED SHAH
+
 · HABIB UR REHMAN
+
 · DUHA ABDULLAH
+
 · ASHAR ALI
+
 · MUHAMMAD ALI
 
 ## References
