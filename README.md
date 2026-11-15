@@ -1,6 +1,5 @@
 # SEATTLE-SCOPE
 
-<h1 align="center">Seattle-Scope</h1> <p align="center"> 
 <img src="banner.gif" alt="Seattle-Scope: Earth Trend Detective. Where water goes, the Earth follows." width="100%"> </p>
 <p align="center"> <a href="https://seattle-scope.vercel.app">
 <b>Live app</b></a> &nbsp;·&nbsp;</b></a> &nbsp;·&nbsp; <a href="#how-it-works"><b>How it works</b></a> &nbsp;·&nbsp; <a href="#run-it-locally"><b>Run locally</b> </p> <p align="center"> <img alt="NASA Space Apps 2026" src="https://img.shields.io/badge/NASA%20Space%20Apps-2026-E3A008?style=for-the-badge"> <img alt="Python" src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img alt="Data" src="https://img.shields.io/badge/Data-NASA%20POWER%20%7C%20MERRA--2-2E7D32?style=for-the-badge"> <img alt="Deployed on Vercel" src="https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">  </p>
