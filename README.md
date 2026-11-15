@@ -108,6 +108,12 @@ venv\Scripts\activate            # Mac/Linux: source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Deploy on Vercel
+
+Vercel serves the static frontend and bundled CSV data from `dist`. The deployed
+app uses the cached data without a FastAPI backend; backend source remains
+available for local development.
+
 
 ## API
 
