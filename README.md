@@ -108,6 +108,7 @@ venv\Scripts\activate            # Mac/Linux: source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+
 ## API
 
 Seven read-only endpoints: `meta`, `status`, `cities`, `trend`, `compare`, `opposites`, `clusters`. They are defined in `main.py`.
@@ -133,7 +134,7 @@ The frontend files and the NASA data cache are in the other folders of this repo
 
 ## Team
 
-· MADEHA SHAH
+
 
 · AHMED SHAH
 
@@ -150,6 +151,7 @@ The frontend files and the NASA data cache are in the other folders of this repo
 - NASA Earthdata forum: GWETROOT definition and soil depth note
 - Mann, H. B. (1945) and Kendall, M. G. (1975): trend test. Sen, P. K. (1968): slope estimator.
 - Open-source libraries: see `requirements.txt`
+
 
 ---
 
